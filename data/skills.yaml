@@ -1,0 +1,7 @@
+myskills:
+  - category: Programming
+    skills: Python, R, C/C++, Scala, JAVA, Node.JS, LaTeX
+  - category: Web
+    skills: Django with Python, Hugo, HTML5, CSS
+  - category: Languages
+    skills: Spanish, English, Portuguese

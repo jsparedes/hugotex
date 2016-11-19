@@ -1,0 +1,15 @@
+title = "My New Hugo Site"
+languageCode = "en-us"
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+
+theme="mycv"
+
+# Instructions:
+# Execute: Hugo
+# rename in the generated public folder the file index.html to cv.tex
+
+# Execute in latex the cv.tex: xelatex cv.tex
+# Required files:
+# - fonts folder
+# - awesome-cv.cls
+# - fontawesome.sty

@@ -1,0 +1,13 @@
+mydegrees:
+  - degree: B.S. in Computer Science and Engineering
+    institution: POSTECH(Pohang University of Science and Technology)
+    location: Pohang, S.Korea
+    date: Mar. 2010 - PRESENT
+    activities:
+    - item: Got a Chun Shin-Il Scholarship which is given to promising students in CSE Dept.
+  - degree: MSc. Electrical Engineering
+    institution: Puc-RIO
+    location: Brazil, S.Korea
+    date: Aug. 2013 - Dec.2015
+    activities:
+    - item: Got a Chun Shin-Il Scholarship which is given to promising students in CSE Dept.

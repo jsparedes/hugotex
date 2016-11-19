@@ -1,0 +1,47 @@
+myexperience:
+  - jobtitle: Software Engineer and Security Researcher (Compulsory Military Service)
+    organization: R.O.K Cyber Command, MND
+    location: Seoul, S.Korea
+    date: Aug. 2014 - Exp. Apr. 2016
+    description:
+      - item: Implemented a military cooperation system which is web based real time messenger in Scala on Lift.
+      - item: Improved functionality on military command and control system for incident response with Java Servlet.
+      - item: Lead engineer on agent-less backtracking system that can discover client device-s fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.
+
+  - jobtitle: Game Developer Intern at Global Internship Program
+    organization: NEXON
+    location: Seoul, S.Korea and LA, U.S.A
+    date: Jan. 2013 - Feb. 2013
+    description:
+      - item: Developed in Cocos2d-x an action puzzle game(Dragon Buster) targeting U.S. market. Implemented API server which is communicating with game client and In-App Store, along with two other team members who wrote the game logic, designed game graphics.
+      - item: Won the 2nd prize in final evaluation.
+
+  - jobtitle: Researcher for <Detecting video’s torrents using image similarity algorithms>
+    organization: Undergraduate Research, Computer Vision Lab(Prof. Bohyung Han)
+    location: Pohang, S.Korea
+    date: Sep. 2012 - Feb. 2013
+    description:
+      - item: Researched means of retrieving a corresponding video based on image contents using image similarity algorithm.
+      - item: Implemented prototype that users can obtain torrent magnet links of corresponding video relevant to an image on web site.
+
+  - jobtitle: Software Engineer Trainee
+    organization: Software Maestro (funded by Korea Ministry of Knowledge and Economy)
+    location: Seoul, S.Korea
+    date: Jul. 2012 - Jun. 2013
+    description:
+      - item: Performed research memory management strategies of OS and implemented in Python an interactive simulator for Linux kernel memory management.
+
+  - jobtitle: Software Engineer
+    organization: ShitOne Corp. (Start-up company)
+    location: Seoul, S.Korea
+    date: Dec. 2011 - Feb. 2012
+    description:
+      - item: Developed a proxy drive smartphone application which connects proxy driver and customer. Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding.
+
+  - jobtitle: Freelance Penetration Tester
+    organization: SAMSUNG Electronics
+    location: S.Korea
+    date: Sep. 2013, Mar. 2011 - Oct. 2011
+    description:
+      - item: Conducted penetration testing on SAMSUNG KNOX, which is solution for enterprise mobile security.
+      - item: Conducted penetration testing on SAMSUNG Smart TV.

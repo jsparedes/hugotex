@@ -1,0 +1,25 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+  {{ $filepath := index .Site.Data "education" }} {{ $items := index $filepath "mydegrees" }}
+  {{ range $index, $element := $items }}
+  \cventry
+    { {{.degree}} }
+    { {{.institution}} }
+    { {{.location}} }
+    { {{.date}} }
+    {
+      \begin{cvitems}
+        {{ range .activities }} \item { {{.item | markdownify}} } {{ end }}
+      \end{cvitems}
+    }
+  {{ end }}
+
+\end{cventries}
