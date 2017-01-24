@@ -24,6 +24,7 @@ func main() {
 				fmt.Println(file.Name())
 				x[i] = file.Name()
 				i = i + 1
+				// x = append(x, file.Name())
 			}
 		}
 	}
@@ -32,7 +33,7 @@ func main() {
 	for _, file:= range x {
 		file_tex := "public/" + file
 		fmt.Println(file_tex)
-		
+
 		input, err := ioutil.ReadFile(file_tex)
 		if err != nil {
 			fmt.Println(err)

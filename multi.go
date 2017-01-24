@@ -7,6 +7,9 @@ import (
   "strings"
   "regexp"
   // "path/filepath"
+  "reflect"
+  "os/exec"
+  "log"
 )
 
 func main() {
@@ -20,24 +23,70 @@ func main() {
 	scanner := bufio.NewScanner(f)
 
 	line := 1
+
+  cont := 0
+  lang := make([]string, 0)
+
+  defaultLanguage := ""
+
 	// https://golang.org/pkg/bufio/#Scanner.Scan
 	for scanner.Scan() {
 		if strings.Contains(scanner.Text(), "DefaultContentLanguage") {
 			fmt.Println(line) // return line, nil
       fmt.Println(scanner.Text())
       re := regexp.MustCompile(`(".*?")`)
-      defaultLanguage := re.FindString(scanner.Text())
+      defaultLanguage = re.FindString(scanner.Text())
+      defaultLanguage = defaultLanguage[1:len(defaultLanguage)-1]
       fmt.Println(defaultLanguage)
       // fmt.Printf("%q", rm)
 		}
 
-    matched, err2 := regexp.MatchString(`languages\..*`, scanner.Text())
-    fmt.Println(matched, err2)
+    matched, _ := regexp.MatchString(`\[languages\..+\]`, scanner.Text())
+    if matched {
+      // lang[cont] = scanner.Text()
+      lang = append(lang, scanner.Text())
+      cont++
+    }
     // if re2 {
     //   fmt.Println(re2.FindString(scanner.Text()))
     // }
 		line++
 	}
+
+  fmt.Println("================")
+  // lg := make([]string, 3)
+  lv := len("languages") + 4
+  rv := ""
+
+  i := 0
+  source := ""
+  destiny := ""
+  for _, v := range lang {
+    long := len(v)
+    // lg[i] = v[lv:long-1]
+    rv = v[lv:long-1]
+    i++
+    fmt.Println(reflect.TypeOf(defaultLanguage))
+    if (rv == defaultLanguage) {
+      fmt.Println(v)
+      source = "public/index.html"
+      destiny = "public/" + rv + ".tex"
+    } else {
+      fmt.Println(5)
+      source = "public/" + rv + "/index.html"
+      destiny = "public/" + rv + ".tex"
+    }
+    fmt.Println("*****************")
+    fmt.Println(source)
+    fmt.Println(destiny)
+    fmt.Println("*****************")
+    cmd := exec.Command("mv", source, destiny)
+	  err5 := cmd.Run()
+	  if err5 != nil {
+		    log.Fatal(err5)
+	  }
+  }
+  // fmt.Println(lg)
 
 	if err := scanner.Err(); err != nil {
 		// Handle the erro
