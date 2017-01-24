@@ -29,7 +29,6 @@ func main() {
 
   defaultLanguage := ""
 
-	// https://golang.org/pkg/bufio/#Scanner.Scan
 	for scanner.Scan() {
 		if strings.Contains(scanner.Text(), "DefaultContentLanguage") {
 			fmt.Println(line) // return line, nil
@@ -38,23 +37,17 @@ func main() {
       defaultLanguage = re.FindString(scanner.Text())
       defaultLanguage = defaultLanguage[1:len(defaultLanguage)-1]
       fmt.Println(defaultLanguage)
-      // fmt.Printf("%q", rm)
 		}
 
     matched, _ := regexp.MatchString(`\[languages\..+\]`, scanner.Text())
     if matched {
-      // lang[cont] = scanner.Text()
       lang = append(lang, scanner.Text())
       cont++
     }
-    // if re2 {
-    //   fmt.Println(re2.FindString(scanner.Text()))
-    // }
 		line++
 	}
 
   fmt.Println("================")
-  // lg := make([]string, 3)
   lv := len("languages") + 4
   rv := ""
 
@@ -63,7 +56,6 @@ func main() {
   destiny := ""
   for _, v := range lang {
     long := len(v)
-    // lg[i] = v[lv:long-1]
     rv = v[lv:long-1]
     i++
     fmt.Println(reflect.TypeOf(defaultLanguage))
@@ -86,22 +78,8 @@ func main() {
 		    log.Fatal(err5)
 	  }
   }
-  // fmt.Println(lg)
 
 	if err := scanner.Err(); err != nil {
 		// Handle the erro
 	}
-
-  // Move and name index.html to Lang.tex
-  // fileList := []string{}
-  // err2 := filepath.Walk("." + string(filepath.Separator), func(path string, f os.FileInfo, err error) error {
-  //       fileList = append(fileList, path)
-  //       return nil
-  // })
-  //
-  // fmt.Println(err2)
-  //
-  // for _, file := range fileList {
-  //     fmt.Println(file)
-  // }
 }

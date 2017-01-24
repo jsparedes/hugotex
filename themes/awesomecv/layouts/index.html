@@ -1,0 +1,28 @@
+{{ partial "preamble.tex" . }}
+{{ partial "personalinf.tex" . }}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  { {{ .Site.Params.name }} {{ .Site.Params.lastname }}~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+{{ partial "education.tex" . }}
+{{ partial "skills.tex" . }}
+{{ partial "experience.tex" . }}
+\newpage
+{{ partial "extracurricular.tex" . }}
+
+%-------------------------------------------------------------------------------
+\end{document}
