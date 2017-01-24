@@ -1,0 +1,24 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{ {{i18n "experience"}}}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+  {{ $filepath := index .Site.Data .Site.Language.Lang "experience" }} {{ $items := index $filepath "myexperience" }}
+  {{ range $index, $element := $items }}
+  \cventry
+    { {{.jobtitle | markdownify}} }
+    { {{.organization | markdownify}} }
+    { {{.location | markdownify}} }
+    { {{.date | markdownify}} }
+    {
+      \begin{cvitems}
+        {{ range .description }} \item { {{.item | markdownify}} } {{ end }}
+      \end{cvitems}
+    }
+    {{ end }}
+\end{cventries}

@@ -1,0 +1,17 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{ {{i18n "skills"}} }
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvskills}
+  {{ $filepath := index .Site.Data .Site.Language.Lang "skills" }} {{ $items := index $filepath "myskills" }}
+  {{ range $index, $element := $items }}
+  \cvskill
+    { {{.category}} }
+    { {{.skills | markdownify}} }
+  {{ end }}
+\end{cvskills}

@@ -1,8 +1,58 @@
 title = "My New Hugo Site"
 languageCode = "en-us"
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "notnecessary"
+DefaultContentLanguage = "en"
+theme="awesomecv"
 
-theme="mycv"
+[params]
+  name = "Jorge"
+  lastname = "Paredes"
+  names = "Jorge S."
+  surnames = "Paredes Merino"
+
+  position1 = "Mechatronic Engineer"#"Developer"
+  position2 = "Data Science Engineer"
+  quote = "Must be the change that you want to see in the world."
+  # [params.contact]
+  email = "js.paredes.merino@gmail.com"
+  phone = "(+51) 994-906-406"
+  # homepage = "jsparedes.github.io"
+  # [params.socialnetworks]
+  twitter = ""
+  linkedin = "jsparedes"
+  skype = ""
+  github = "jsparedes"
+  stackoverflow = ""
+  reddit = ""
+
+  # Languages
+  [languages.en]
+      weight = 10
+      languageName = "English"
+      languageCode = "en-us"
+      description = "English cv"
+      address = "847, Jr. San Francisco, Azcarrunz Bajo - SJL"
+      city = "Lima"
+      country = "Peru"
+
+  [languages.es]
+      weight = 20
+      languageName = "Spanish"
+      languageCode = "es-es"
+      description = "cv español"
+      address = "Jr. San Francisco 847, Azcarrunz Bajo - SJL"
+      paginatePath = "pagina"
+      city = "Lima"
+      country = "Perú"
+
+  [languages.pt]
+      weight = 20
+      languageName = "Portuguese"
+      languageCode = "pt-br"
+      description = "Cv em Português"
+      address = "Jr. San Francisco 847, Azcarrunz Bajo - SJL"
+      city = "Lima"
+      country = "Peru"
 
 # Instructions:
 # Execute: Hugo

@@ -1,0 +1,64 @@
+mysem:
+  - event: CIARP
+    location: PUCP, Lima-Peru.
+    date: Nov.2016
+    talks:
+      - item: Unsupervised Learning, the Next Frontier in Artificial Intelligence
+        speaker: Prof. Yann LeCun, Director of AI Research at Facebook.
+
+  - event: AWS Summit Lima
+    location: JW Marriot Hotel Lima.
+    date: Set.2016
+    talks:
+      - item: Storage services in AWS
+      - item: Scaling the first 10 millions of users
+      - item: Databases Services in Amazon Web Service(AWS)
+      - item: Hybrid cloud
+      - item: Fist Application in Big Data AWS
+      - item: Internet of Things in AWS
+
+  - event: Rio Big Data Meetup
+    location: PUC-Rio, Rio de Janeiro-Brazil
+    date: Jul.2015, Abr.2015, Oct.2014
+    talks:
+      - item: Theory of Science and its use in the creation and maintenance of statistical models.
+      - item: Recommendation Systems using Spark
+      - item: Big Data Platform in Globo.com (Recommendation Systems)
+      - item: Visual Analytics (Principles, tools and best practices)
+      - item: Lean and Data Science in brazilian tourism
+      - item: Crowdsourcing Approaches to Big Data Curation
+
+  - event: PUC-Rio Conferences
+    location: PUC-Rio, Brazil
+    date: Abr.2015, May.2015
+    talks:
+      - item: Soft Robotic
+        speaker: Prof. Rolf Pfeifer. ETH Zurich
+      - item: Statistical Optimization for Path Planning and Environment Monitoring with Mobile Robots.
+        speaker: Prof. Fabio Ramos - Sydney University
+
+  - event: ABB - eLearning
+    location:
+    date: 2013
+    talks:
+      - item: ABB MV Drives Product Overview
+      - item: MV Drive Fundamentals
+      - item: LV AC Drives Product Portfolio
+
+  - event: Peruvian Institute of Science and Maths (IMCA)
+    location: Lima-Peru
+    date: 2011
+    talks:
+      - item: Introduction to Graph Theory
+
+  - event: CTIC (Research Lab)
+    location: UNI, Lima-Peru
+    date: 2011
+    talks:
+      - item: Android OS Multimedia seminar
+
+  - event: Asia-Pacific Economic Cooperation (APEC)
+    location: UNI, Lima-Peru
+    date: 2008
+    talks:
+      - item: Oportunidade e Desafio para o Desenvolvimento Nacional

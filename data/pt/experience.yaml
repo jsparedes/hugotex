@@ -1,0 +1,46 @@
+myexperience:
+  - jobtitle: Developer Engineer
+    organization: NanoBusiness Informação e Inovação Ltda
+    location: Rio de Janeiro, Brazil
+    date: June.2016 - Present
+    description:
+      - item: Migration to Amazon Web Services.
+      - item: Data exploration of Clientes and PEDIDOS.
+      - item: Development of model predictions.
+      - item: Implemented prototype site using Hugo Framework.
+
+  - jobtitle: Researcher and Developer
+    organization: Laboratorio de Inteligência e Robôtica Aplicadas (LIRA)
+    location: PUC-Rio, Brazil
+    date: Mar.2015 - May.2016
+    description:
+      - item: Cleaning Data, Data mining and model construction in R language.
+      - item: Visual exploration (Tableau, R and python)
+      - item: Assistent in Csharp project, SMARt.
+
+  - jobtitle: Field Service Engineer LV & MV Drives
+    organization: ABB SA
+    location: Lima, Peru
+    date: Nov.2012 - Jul.2013
+    description:
+      - item: Servicio de mantenimiento de drives de baja y media tension.
+      - item: Development of drives applications for Asea Brown Boveri (ABB) using VBA e Python
+      - item: Commissioning, preventive manutention, diagnostic, reparation, upgrade, remote monitoring and auditory reports for ABB's Drives
+      - item: Technical support for customers who have uma base instalada de drives ABB.
+      - item: "ABB Robotics: RobotStudio & IRB120."
+
+  - jobtitle: Researcher
+    organization: Universidad Nacional de Ingenieria.
+    location: Lima, Peru
+    date: Jan.2011 - Oct.2011
+    description:
+      - item: Work in Cooperative presented in MUSME Congress Present in Valencia, Spain.
+      - item: Csharp Interface to track movile robots (Moways) using Artificial Vision.
+
+  - jobtitle: Assistent
+    organization: TASAMI SAC
+    location: Lima, Peru
+    date: Aug.2010 - Dec.2010
+    description:
+      - item: Assistent of PLC's programming and other devices as Variable Speed Drives.
+      - item: Database manipulation and networks related to Variable Speed Drives.

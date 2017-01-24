@@ -1,0 +1,16 @@
+mydegrees:
+  - degree: MSc. Electrical Engineering - Signal Processing, Automation and Robotics
+    institution: Pontifical Catholic University of Rio de Janeiro (PUC-Rio)
+    location: Rio de Janerio, Brazil
+    date: Aug. 2013 - Dec.2015
+    activities:
+    - item: Develop of pattern.
+    - item: Support in
+  - degree: BSc. in Mechatronical Engineering
+    institution: Universidad Nacional de Ingeniería (UNI)
+    location: Lima, Peru
+    date: Mar. 2006 - Dec.2010
+    activities:
+    - item: Former vice-president of student group in Artificial Intelligence (GISCIA)
+    - item: Participations in national and international congress.
+    - item: Development of artificial vision with moway robots.

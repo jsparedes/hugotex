@@ -1,0 +1,13 @@
+myskills:
+  - category: Programação
+    skills: Python, R, Matlab, LaTeX, Golang e scripts na consola UNIX.
+  - category: Web
+    skills: Django(Python), Hugo(Golang), HTML5, CSS e javascript.
+  - category: Visualization
+    skills: Tableau, R, Matplotlib (Python), D3.js
+  - category: CAD
+    skills: AutoCAD
+  - category: Office
+    skills: Microsoft Office, Lyx.
+  - category: Línguas
+    skills: Spanish, English, Portuguese

@@ -1,1 +1,7 @@
 public/
+*.mkv
+*.pdf
+*.mp4
+main.go
+Multilingual*
+*.html

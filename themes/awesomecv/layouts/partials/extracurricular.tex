@@ -1,0 +1,24 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{ {{i18n "extracurricular"}} }
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+  {{ $filepath := index .Site.Data .Site.Language.Lang "extracurricular" }} {{ $items := index $filepath "myroles" }}
+  {{ range $index, $element := $items }}
+  \cventry
+    { {{.role}} }
+    { {{.organization}} }
+    { {{.location}} }
+    { {{.date}} }
+    {
+      \begin{cvitems}
+        {{ range .description }} \item { {{.item | markdownify}} } {{ end }}
+      \end{cvitems}
+    }
+  {{ end }}
+\end{cventries}

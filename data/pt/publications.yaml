@@ -1,0 +1,17 @@
+mypublications:
+  - title: Automatic Synthesis of Fuzzy Inference Systems for Classification
+    authors: Jorge Paredes, Ricardo Tanscheit, Marley Vellasco, Adriano Koshiyama
+    book: Information Processing and Management of Uncertainty in Knowledge-Based Systems
+    event: 16th International Conference, IPMU 2016
+    doi: 10.1007/978-3-319-40596-4_41
+    pages: 486-497
+    location: Eindhoven, The Netherlands
+    date: June 20-24, 2016
+
+  - title: Effect of cooperative work in object transportation by multi-agent systems in Known Environment.
+    authors: Rios, R.M; Merino, J.S.P; Aragón S.J.C; Martínez, J.F.O
+    book: Internation Symposium on Multibody Systems and Mechatronic
+    event: 4th MUSME
+    pages: 283-291
+    location: U. POLITÉCNICA de VALENCIA, Spain
+    date: 25th Oct.2011

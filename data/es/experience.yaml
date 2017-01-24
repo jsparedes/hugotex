@@ -1,0 +1,46 @@
+myexperience:
+  - jobtitle: Developer Engineer
+    organization: NanoBusiness Informação e Inovação Ltda
+    location: Rio de Janeiro, Brazil
+    date: Junio.2016 - Present
+    description:
+      - item: Migración a Amazon Web Services.
+      - item: Exploración de datos en clientes y pedidos.
+      - item: Desarrollo de modelos predictivos para difracción.
+      - item: Web institucional.
+
+  - jobtitle: Investigador y Desarrollador
+    organization: Laboratorio de Inteligência e Robôtica Aplicadas (LIRA)
+    location: PUC-Rio, Brazil
+    date: Mar.2015 - May.2016
+    description:
+      - item: Cleaning Data, Data mining y construcción de modelos en R.
+      - item: Visual exploration (Tableau, R and python)
+      - item: Asistente de programación en el projecto SMARt, para optimización de transporte de óleos.
+
+  - jobtitle: Field Service Engineer LV & MV Drives
+    organization: ABB SA
+    location: Lima, Peru
+    date: Nov.2012 - Jul.2013
+    description:
+      - item: Servicio de mantenimiento de drives de baja y media tension.
+      - item: Development of drives applications for Asea Brown Boveri (ABB) using VBA e Python
+      - item: Commissioning, preventive manutention, diagnostic, reparation, upgrade, remote monitoring and auditory reports for ABB's Drives
+      - item: Technical support for customers who have uma base instalada de drives ABB.
+      - item: "ABB Robotics: RobotStudio & IRB120."
+
+  - jobtitle: Invertigador
+    organization: Universidad Nacional de Ingeniería.
+    location: Lima, Peru
+    date: Ene.2011 - Oct.2011
+    description:
+      - item: Work in Cooperative presented in MUSME Congress Present in Valencia, Spain.
+      - item: Csharp Interface to track movile robots (Moways) using Artificial Vision.
+
+  - jobtitle: Asistente
+    organization: TASAMI SAC
+    location: Lima, Peru
+    date: Ago.2010 - Dic.2010
+    description:
+      - item: Asistente of PLC's programming and other devices as Variable Speed Drives.
+      - item: Manipulación de base de datos y redes relacionadas a variadores de velocidad.

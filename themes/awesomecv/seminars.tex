@@ -1,0 +1,33 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{ {{ i18n "seminars"}} }
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+  {{ $filepath := index .Site.Data .Site.Language.Lang "seminars" }} {{ $items := index $filepath "mysem" }}
+  {{ range $index, $element := $items }}
+  \cventry
+    {  }
+    { {{.event}} }
+    { {{.location}} }
+    { {{.date}} }
+    {
+      \begin{cvitems}
+        {{ range .talks }} \item { {{.item | markdownify}} } {{ end }}
+      \end{cvitems}
+    }
+  {{ end }}
+\end{cventries}
+
+% \begin{cvskills}
+%   {{ $filepath := index .Site.Data "seminars" }} {{ $items := index $filepath "mysem" }}
+%   {{ range $index, $element := $items }}
+%   \cvskill
+%     { {{.event}} }
+%     { {{.location | markdownify}} }
+%   {{ end }}
+% \end{cvskills}

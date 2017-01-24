@@ -1,0 +1,20 @@
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{ {{ .Site.Params.names }} }{ {{ .Site.Params.surnames }} }
+\position{ {{ .Site.Params.position1 }}{\enskip\cdotp\enskip} {{ .Site.Params.position2}} }
+\address{ {{ delimit (slice .Site.Params.address (delimit (slice .Site.Params.city .Site.Params.country) " - ")) ", "}} }
+
+\mobile{ {{ .Site.Params.phone | markdownify }} }
+\email{ {{ .Site.Params.email }} }
+% \homepage{ {{ .Site.Params.homepage }} }
+\github{ {{.Site.Params.github}} }
+\linkedin{ {{.Site.Params.linkedin}} }
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+\quote{``{{.Site.Params.quote}}"}

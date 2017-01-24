@@ -1,0 +1,60 @@
+moocs:
+  - course: Data Management for Clinical Research
+    instructor: Vanderbilt University
+    platform: Coursera
+    year: 2015
+
+  - course: Developing Data Products
+    instructor: John Hopkings University
+    platform: Coursera
+    year: 2015
+
+  - course: Exploratory Data Analysis
+    instructor: John Hopkings University
+    platform: Coursera
+    year: 2014
+
+  - course: Reproducible Research
+    instructor: John Hopkings University
+    platform: Coursera
+    year: 2014
+
+  - course: Practical Machine Learning
+    instructor: John Hopkings University
+    platform: Coursera
+    year: 2014
+
+  - course: R Programming
+    instructor: John Hopkings University
+    platform: Coursera
+    year: 2014
+
+  - course: The Data Scientist Toolbox
+    instructor: John Hopkings University
+    platform: Coursera
+    year: 2014
+
+  - course: Getting and Cleaning Data
+    instructor: John Hopkings University
+    platform: Coursera
+    year: 2014
+
+  - course: Statistical Inference
+    instructor: John Hopkings University
+    platform: Coursera
+    year: 2014
+
+  - course: Machine Learning
+    instructor: Andrew Ng
+    platform: Coursera
+    year: 2012
+
+  - course: Building a Search Engine
+    instructor: Dave Evans
+    platform: Udacity
+    year: 2012
+
+  - course: Programming a Robotic Car
+    instructor: Sebastian Thrun
+    platform: Udacity
+    year: 2012
