@@ -6,7 +6,6 @@ import (
 	"os"
   "strings"
   "regexp"
-  "reflect"
   "os/exec"
   "log"
 )
@@ -51,9 +50,7 @@ func main() {
     long := len(v)
     rv = v[lv:long-1]
     i++
-    fmt.Println(reflect.TypeOf(defaultLanguage))
     if (rv == defaultLanguage) {
-      fmt.Println(v)
       source = "public/index.html"
       destiny = "public/" + rv + ".tex"
     } else {
