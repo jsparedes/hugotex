@@ -6,7 +6,6 @@ import (
 	"os"
   "strings"
   "regexp"
-  // "path/filepath"
   "reflect"
   "os/exec"
   "log"
@@ -16,13 +15,11 @@ func main() {
 
 	f, err := os.Open("config.toml")
 	if err != nil {
-		fmt.Println("gg") //return 0, err
+		fmt.Println("Error reading config.toml") //return 0, err
 	}
 
 	// Splits on newlines by default.
 	scanner := bufio.NewScanner(f)
-
-	line := 1
 
   cont := 0
   lang := make([]string, 0)
@@ -30,24 +27,20 @@ func main() {
   defaultLanguage := ""
 
 	for scanner.Scan() {
-		if strings.Contains(scanner.Text(), "DefaultContentLanguage") {
-			fmt.Println(line) // return line, nil
-      fmt.Println(scanner.Text())
+    line := scanner.Text()
+		if strings.Contains(line, "DefaultContentLanguage") {
       re := regexp.MustCompile(`(".*?")`)
-      defaultLanguage = re.FindString(scanner.Text())
+      defaultLanguage = re.FindString(line)
       defaultLanguage = defaultLanguage[1:len(defaultLanguage)-1]
-      fmt.Println(defaultLanguage)
 		}
 
-    matched, _ := regexp.MatchString(`\[languages\..+\]`, scanner.Text())
+    matched, _ := regexp.MatchString(`\[languages\..+\]`, line)
     if matched {
-      lang = append(lang, scanner.Text())
+      lang = append(lang, line)
       cont++
     }
-		line++
 	}
 
-  fmt.Println("================")
   lv := len("languages") + 4
   rv := ""
 
@@ -64,14 +57,9 @@ func main() {
       source = "public/index.html"
       destiny = "public/" + rv + ".tex"
     } else {
-      fmt.Println(5)
       source = "public/" + rv + "/index.html"
       destiny = "public/" + rv + ".tex"
     }
-    fmt.Println("*****************")
-    fmt.Println(source)
-    fmt.Println(destiny)
-    fmt.Println("*****************")
     cmd := exec.Command("mv", source, destiny)
 	  err5 := cmd.Run()
 	  if err5 != nil {

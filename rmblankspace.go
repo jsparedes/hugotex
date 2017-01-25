@@ -21,18 +21,14 @@ func main() {
 	for _, file := range files {
 		if file.Mode().IsRegular() {
 			if filepath.Ext(file.Name()) == ".tex" {
-				fmt.Println(file.Name())
 				x[i] = file.Name()
-				i = i + 1
-				// x = append(x, file.Name())
+				i++
 			}
 		}
 	}
-	fmt.Println(x)
 
 	for _, file:= range x {
 		file_tex := "public/" + file
-		fmt.Println(file_tex)
 
 		input, err := ioutil.ReadFile(file_tex)
 		if err != nil {
@@ -50,7 +46,5 @@ func main() {
 			fmt.Println(err)
 			os.Exit(1)
 		}
-
-		fmt.Println("=================")
 	}
 }
