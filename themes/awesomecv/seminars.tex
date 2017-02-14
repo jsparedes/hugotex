@@ -11,7 +11,7 @@
   {{ $filepath := index .Site.Data .Site.Language.Lang "seminars" }} {{ $items := index $filepath "mysem" }}
   {{ range $index, $element := $items }}
   \cventry
-    {  }
+    {  } % creo debo volarlo <<<<<<=============
     { {{.event}} }
     { {{.location}} }
     { {{.date}} }

@@ -4,12 +4,12 @@ myexperience:
     location: Rio de Janeiro, Brazil
     date: June.2016 - Present
     description:
-      - item: Migration to Amazon Web Services.
-      - item: Data exploration of Clientes and PEDIDOS.
-      - item: Development of model predictions.
+      - item: Migração para a Amazon Web Services.
+      - item: Exploração de dados of Clientes and PEDIDOS.
+      - item: Desenvolvimento de modelos de predição na difração.
       - item: Implemented prototype site using Hugo Framework.
 
-  - jobtitle: Researcher and Developer
+  - jobtitle: Desenvolvedor e Pesquisador
     organization: Laboratorio de Inteligência e Robôtica Aplicadas (LIRA)
     location: PUC-Rio, Brazil
     date: Mar.2015 - May.2016

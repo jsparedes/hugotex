@@ -3,28 +3,28 @@ mysem:
     location: PUCP, Lima-Peru.
     date: Nov.2016
     talks:
-      - item: Unsupervised Learning, the Next Frontier in Artificial Intelligence
-        speaker: Prof. Yann LeCun, Director of AI Research at Facebook.
+      - item: Aprendizagem não supervisionada, a próxima fronteira em Inteligência Artificial
+        speaker: Prof. Yann LeCun, Diretor de Invesigação no Facebook.
 
   - event: AWS Summit Lima
     location: JW Marriot Hotel Lima.
     date: Set.2016
     talks:
-      - item: Storage services in AWS
-      - item: Scaling the first 10 millions of users
-      - item: Databases Services in Amazon Web Service(AWS)
-      - item: Hybrid cloud
-      - item: Fist Application in Big Data AWS
-      - item: Internet of Things in AWS
+      - item: Servicos de armazenamento na AWS
+      - item: Escalando os primeiros 10 milhões de usuários
+      - item: Serviços de Base de Dados na Amazon Web Service(AWS)
+      - item: Nuvem híbrida
+      - item: Primeira aplicação em Big Data na AWS
+      - item: Internet das Coisas na AWS
 
   - event: Rio Big Data Meetup
     location: PUC-Rio, Rio de Janeiro-Brazil
     date: Jul.2015, Abr.2015, Oct.2014
     talks:
       - item: Theory of Science and its use in the creation and maintenance of statistical models.
-      - item: Recommendation Systems using Spark
-      - item: Big Data Platform in Globo.com (Recommendation Systems)
-      - item: Visual Analytics (Principles, tools and best practices)
+      - item: Sistemas de Recomendação usando Spark
+      - item: Plataforma de Big Data Platform no O Globom (Sistema de Recomendação)
+      - item: Visual Analytics (Principios, ferramentas e boas práticas)
       - item: Lean and Data Science in brazilian tourism
       - item: Crowdsourcing Approaches to Big Data Curation
 
@@ -45,11 +45,11 @@ mysem:
       - item: MV Drive Fundamentals
       - item: LV AC Drives Product Portfolio
 
-  - event: Peruvian Institute of Science and Maths (IMCA)
+  - event: Instituto de Matemática e Ciências Afins (IMCA)
     location: Lima-Peru
     date: 2011
     talks:
-      - item: Introduction to Graph Theory
+      - item: Introdução à Teoria dos Grafos
 
   - event: CTIC (Research Lab)
     location: UNI, Lima-Peru
@@ -57,7 +57,7 @@ mysem:
     talks:
       - item: Android OS Multimedia seminar
 
-  - event: Asia-Pacific Economic Cooperation (APEC)
+  - event: Cooperação Econômica Ásia-Pacífico (APEC)
     location: UNI, Lima-Peru
     date: 2008
     talks:
